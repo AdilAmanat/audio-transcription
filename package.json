@@ -1,0 +1,20 @@
+{
+  "name": "transcription-pipeline",
+  "version": "1.0.0",
+  "description": "Simple audio transcription pipeline: ingest -> preprocess -> transcribe -> postprocess -> publish",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "nodejs-whisper": "^0.2.0"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.64.0"
+  }
+}
